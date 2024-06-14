@@ -2,6 +2,9 @@ body {
     font-family: 'Poppins';
 }
 
+
+/* Home Section */
+
 .container {
     padding: 0 50px;
     /* border: 1px solid black; */
@@ -126,6 +129,9 @@ body {
     font-size: 18px;
 }
 
+
+/* About Section */
+
 .about {
     padding: 0 50px;
     margin-top: 48px;
@@ -191,6 +197,10 @@ body {
     margin: 10px 0 0 0;
 }
 
+
+/* Feature Section */
+
+
 .feature-container {
     background-color: #125D56;
     padding-top: 50px;
@@ -252,6 +262,9 @@ body {
     font-size: 15px;
 }
 
+
+/* Tool desc Section */
+
 .container2 {
     display: flex;
     justify-content: space-between;
@@ -284,6 +297,9 @@ body {
 .tool-img img {
     width: 600px;
 }
+
+/* get started */
+
 
 .container3 {
     padding-top: 50px;
@@ -339,13 +355,16 @@ body {
     font-size: 18px;
 }
 
+
+/* Footer Section */
+
 .footer {
     display: flex;
     gap: 80px;
     flex-direction: column;
     border-top: 1px solid lightgrey;
-    padding: 30px 50px;
-    
+    padding: 80px 50px;
+
 
 }
 
@@ -360,6 +379,7 @@ body {
     display: flex;
     height: 32px;
     gap: 10px;
+    align-items: center;
 
 }
 
@@ -371,38 +391,48 @@ body {
 .footer-logo span {
     height: 30px;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 26px;
     /* line-height: 30px; */
     color: #0b0e15;
 }
 
-.footer-contents-text span{
+.footer-contents-text span {
     color: #475467;
     font-size: 16px;
 }
-.footer-contents-text p{
+
+.footer-contents-text p {
     font-weight: 600;
 }
 
+.footer-contents-text ul{
+    list-style: none;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding: 0 0;
+}
 
-.footer-lower{
+.footer-lower {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-lower span{
+.footer-lower span {
     font-size: 14px;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     gap: 6px;
 
 }
 
-.footer-icons img{
+.footer-icons img {
     height: 20px;
     padding: 10px 10px;
     border: 2px solid lightgray;
     border-radius: 6px;
 }
+
