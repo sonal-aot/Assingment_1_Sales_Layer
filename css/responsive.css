@@ -1,6 +1,6 @@
 /* size 1340px */
 
-@media only screen and (max-width: 1340px) {
+@media all and (max-width: 1340px) {
 	.home {
 		justify-content: center;
 		flex-direction: column-reverse;
@@ -94,7 +94,7 @@
 
 /* ipad mini */
 
-@media only screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
 
 	.container {
 		padding: 0 20px 60px 20px;
@@ -378,15 +378,10 @@
 }
 
 
-
-
-
-
 /* Mobile Responsive 376px */
 
 
-
-@media only screen and (max-width: 376px) {
+@media all and (max-width: 376px) {
 
 	body {
 		margin: auto;
