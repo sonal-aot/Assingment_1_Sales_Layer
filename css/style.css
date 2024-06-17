@@ -182,6 +182,7 @@ body {
 .list-menu {
 	display: none;
 	flex-direction: column;
+	color: #475467;
 	position: absolute;
 	width: 100%;
 	left: 55px;

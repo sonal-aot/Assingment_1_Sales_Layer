@@ -364,7 +364,13 @@
 		display: flex;
 	}
 
-	#accordion input[type="radio"]:checked+.accordion-content {
+	/* #accordion input[type="radio"]:checked + .accordion-label span {
+		transform: rotate(90deg);
+		transition: transform 0.3s;
+	} */
+	
+
+	#accordion input[type="radio"]:checked + .accordion-content {
 		display: block;
 		transition: all 1s;
 	}
@@ -524,7 +530,7 @@
 
 	}
 
-	.footer-lower{
+	.footer-lower {
 		flex-direction: column;
 		gap: 20px;
 	}
