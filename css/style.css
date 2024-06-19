@@ -1,5 +1,12 @@
 body {
 	font-family: 'Poppins';
+	margin: auto;
+	/* max-width: 1440px; */
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
 }
 
 
@@ -13,6 +20,7 @@ body {
 .nav {
 	display: flex;
 	flex-wrap: wrap;
+	/* max-width: 1280px; */
 	justify-content: space-between;
 	align-items: center;
 	height: 72px;
@@ -112,6 +120,37 @@ body {
 	display: none;
 }
 
+/* side menu */
+
+
+
+.list-menu {
+	display: none;
+	flex-direction: column;
+	color: #475467;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	padding-left: 30px;
+	justify-content: center;
+	text-align: start;
+	background-color: white;
+}
+
+.list {
+	font-family: 'Poppins';
+	/* border: 1px solid black; */
+	padding: 16px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.list:hover {
+	background-color: #F0FDF9;
+	color: #107569;
+
+}
+
 .home {
 	display: flex;
 	flex-wrap: wrap;
@@ -131,9 +170,6 @@ body {
 	gap: 30px;
 }
 
-.body-img {
-	max-width: 550px;
-}
 
 .home-text {
 	display: flex;
@@ -177,19 +213,7 @@ body {
 }
 
 
-/* side menu */
 
-.list-menu {
-	display: none;
-	flex-direction: column;
-	color: #475467;
-	position: absolute;
-	width: 100%;
-	left: 55px;
-	justify-content: center;
-	text-align: start;
-	background-color: white;
-}
 
 
 
@@ -231,7 +255,7 @@ body {
 	margin: 20px 0 0 0;
 	max-width: 93%;
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	justify-content: space-between;
 	align-items: center;
 }
@@ -251,7 +275,7 @@ body {
 }
 
 .about-box {
-	max-width: 280px;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
@@ -556,12 +580,12 @@ body {
 /* accordion */
 
 
-#accordion{
+#accordion {
 	display: none;
 	flex-direction: column;
 }
 
-#accordion label{
+#accordion label {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -576,15 +600,15 @@ body {
 
 }
 
-#accordion label span{
+#accordion label span {
 	font-size: 22px;
 	transform: rotate(90deg);
 	color: rgb(151, 150, 150);
 }
 
 
-#accordion label + input[type="radio"] {
-    display: none;
+#accordion label+input[type="radio"] {
+	display: none;
 }
 
 
@@ -596,8 +620,9 @@ body {
 	left: 55px;
 	justify-content: center;
 	text-align: start;
+	color: #475467;
 	background-color: white;
-	
+
 }
 
 
