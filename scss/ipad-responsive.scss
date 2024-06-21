@@ -257,34 +257,102 @@
     }
 
     .footer-upper {
+        display: flex;
         flex-direction: column;
-
-        .footer-body {
-            display: none;
-        }
+        padding: 0;
+        gap: 48px;
 
         .footer-logo {
             max-width: 265px;
         }
-    }
 
-    .footer-lower {
-        gap: 16px;
-        padding: 0 0;
-
-        #accordion {
+        .footer-body {
             display: flex;
+            flex-direction: column;
+            width: 680px;
+            gap: 20px;
+
+            .footer-body-content {
+                width: auto;
+                display: flex;
+                gap: 12px;
+                flex-direction: column;
+
+                .footer-content-head {
+                    display: inline-flex;
+                    justify-content: space-between;
+                    width: 680px;
+                    padding-bottom: 20px;
+                    border-bottom: 0.5px solid $font-color-3; // Replace with actual color
+                    font-size: 16px;
+                    font-weight: $font-bold-2; // Replace with actual font weight
+                    line-height: 24px;
+                    text-align: left;
+
+                    img {
+                        display: flex;
+                        width: 24px;
+                        gap: 0;
+                    }
+                }
+
+                .footer-content-list {
+                    display: none;
+                    flex-direction: column;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        max-width: 680px;
+                        padding: 6px 12px;
+                        gap: 10px;
+                    }
+
+                    li:active {
+                        background-color: $list-hover;
+                        color: $font-hover;
+                    }
+                }
+
+                .accordion-btn:checked ~ .footer-content-list {
+                    display: flex;
+                    padding-bottom: 20px;
+                    max-width: -webkit-fill-available;
+                    border-bottom: 1px solid $font-color-3;
+                }
+
+                .accordion-btn:checked ~ .footer-content-head {
+                    border: none;
+                    padding: 0;
+                }
+
+                .accordion-btn:checked ~ label img {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+.footer-lower {
+    gap: 16px;
+    padding: 0 0;
+
+    .footer-lower-container {
+        padding: 32px 0px;
+        gap: 0px;
+
+        .footer-lower-body {
+            span {
+                text-align: left;
+            }
         }
 
-        #accordion input[type="radio"]:checked + .accordion-content {
-            display: block;
-            transition: all 1s;
-        }
-
-        .footer-lower-container {
-            padding: 32px 0px;
-            gap: 0px;
-            justify: space-between;
+        .footer-lower-icons{
+            .footer-icon{
+                border: 2px solid #0000001F
+            }
         }
     }
 }

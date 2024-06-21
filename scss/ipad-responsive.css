@@ -201,28 +201,83 @@
     gap: 48px;
   }
   .footer-upper {
+    display: flex;
     flex-direction: column;
-  }
-  .footer-upper .footer-body {
-    display: none;
+    padding: 0;
+    gap: 48px;
   }
   .footer-upper .footer-logo {
     max-width: 265px;
   }
-  .footer-lower {
-    gap: 16px;
-    padding: 0 0;
-  }
-  .footer-lower #accordion {
+  .footer-upper .footer-body {
     display: flex;
+    flex-direction: column;
+    width: 680px;
+    gap: 20px;
   }
-  .footer-lower #accordion input[type=radio]:checked + .accordion-content {
-    display: block;
-    transition: all 1s;
+  .footer-upper .footer-body .footer-body-content {
+    width: auto;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
   }
-  .footer-lower .footer-lower-container {
-    padding: 32px 0px;
-    gap: 0px;
-    justify: space-between;
+  .footer-upper .footer-body .footer-body-content .footer-content-head {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 680px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #d0d5dd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
   }
+  .footer-upper .footer-body .footer-body-content .footer-content-head img {
+    display: flex;
+    width: 24px;
+    gap: 0;
+  }
+  .footer-upper .footer-body .footer-body-content .footer-content-list {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-upper .footer-body .footer-body-content .footer-content-list li {
+    max-width: 680px;
+    padding: 6px 12px;
+    gap: 10px;
+  }
+  .footer-upper .footer-body .footer-body-content .footer-content-list li:active {
+    background-color: #f0fdf9;
+    color: #107569;
+  }
+  .footer-upper .footer-body .footer-body-content .accordion-btn:checked ~ .footer-content-list {
+    display: flex;
+    padding-bottom: 20px;
+    max-width: -webkit-fill-available;
+    border-bottom: 1px solid #d0d5dd;
+  }
+  .footer-upper .footer-body .footer-body-content .accordion-btn:checked ~ .footer-content-head {
+    border: none;
+    padding: 0;
+  }
+  .footer-upper .footer-body .footer-body-content .accordion-btn:checked ~ label img {
+    transform: rotate(180deg);
+  }
+}
+.footer-lower {
+  gap: 16px;
+  padding: 0 0;
+}
+.footer-lower .footer-lower-container {
+  padding: 32px 0px;
+  gap: 0px;
+}
+.footer-lower .footer-lower-container .footer-lower-body span {
+  text-align: left;
+}
+.footer-lower .footer-lower-container .footer-lower-icons .footer-icon {
+  border: 2px solid rgba(0, 0, 0, 0.1215686275);
 }/*# sourceMappingURL=ipad-responsive.css.map */

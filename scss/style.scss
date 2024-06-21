@@ -635,16 +635,27 @@ body {
             line-height: 20px;
             text-align: left;
             color: $font-color-2;
+
+            img{
+                display: none;
+            }
+        }
+
+        .accordion-btn {
+            display: none;
         }
 
         .footer-content-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
             display: flex;
             white-space: nowrap;
             flex-direction: column;
             max-width: 78px;
             gap: 16px;
 
-            span {
+            li {
                 font-size: 16px;
                 font-weight: $font-bold-1;
                 line-height: 24px;
@@ -661,60 +672,6 @@ body {
     // align-items: center;
     // display: flex;
     // justify-content: space-between;
-
-    #accordion {
-        display: none;
-        gap: 16px;
-        flex-direction: column;
-    }
-
-    #accordion label {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid rgba(212, 212, 212, 0.91);
-        padding: 20px 0;
-        width: 100%;
-        margin: 0 0;
-        font-size: 20px;
-        font-family: "Poppins";
-        font-weight: 300;
-        cursor: pointer;
-    }
-
-    #accordion label span {
-        font-size: 22px;
-        transform: rotate(90deg);
-        color: rgb(151, 150, 150);
-    }
-
-    #accordion label + input[type="radio"] {
-        display: none;
-    }
-
-    .accordion-content {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        left: 55px;
-        justify-content: center;
-        text-align: start;
-        color: #475467;
-        background-color: white;
-    }
-
-    .accordion-content p {
-        font-family: "Poppins";
-        margin: 0;
-        padding: 10px 14px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    .accordion-content p:hover {
-        background-color: #f0fdf9;
-        color: #107569;
-    }
 
     .footer-lower-container {
         max-width: 1216px;
