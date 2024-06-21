@@ -82,12 +82,6 @@
         align-items: center;
         gap: 24px;
 
-        span {
-            font-size: 60px;
-            font-weight: $font-bold-1;
-            line-height: 72px;
-        }
-
         p {
             text-align: center;
         }
@@ -162,34 +156,135 @@
         padding: 0;
     }
 
-    .feature-body {
+    .features-body {
         max-width: 744px;
         padding: 64px 32px;
         gap: 64px;
     }
 
-    .feature-head {
+    .features-head {
         max-width: 680px;
 
-        .feature-head-top {
+        .features-head-top {
             max-width: 680px;
             gap: 12px;
+            text-align: center;
+
+            .features-head-2 {
+                max-width: 680px;
+                display: flex;
+                gap: 0px;
+                text-align: center;
+            }
         }
 
-        .feature-head-2 {
+        .features-head-3 {
+            max-width: 680px;
             text-align: center;
         }
     }
 
     .features-card-section {
         grid-template-columns: repeat(2, 1fr);
+        // max-width: 680px;
+    }
+
+    .features-card {
+        max-width: 324px;
+    }
+
+    .features-card-body {
+        max-width: 276px;
+
+        .features-card-body-head {
+            white-space: wrap;
+        }
+
+        .features-card-body-text {
+            max-width: 276px;
+        }
+    }
+
+    .tool-container {
+        // width: 744px;
+        padding: 64px 32px;
+        gap: 48px;
+        flex-direction: column-reverse;
+
+        .tool-body {
+            max-width: 680px;
+
+            .tool-body-head {
+                max-width: 680px;
+            }
+
+            .tool-body-text {
+                max-width: 680px;
+            }
+        }
+    }
+
+    .tool-img {
+        max-width: 500px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .get-free-container {
+        max-width: 744px;
+        padding: 64px 32px;
+        // gap: 10px;
+    }
+
+    .get-free-body {
+        max-width: 680px;
+        padding: 64px 32px;
+    }
+
+    .get-free-body-text {
+        max-width: 616px;
+
+        button {
+            width: 171px;
+        }
     }
 
     .footer-container {
-        flex-direction: column;
+        padding: 48px 32px 41px 32px;
+        gap: 48px;
     }
 
     .footer-upper {
         flex-direction: column;
+
+        .footer-body {
+            display: none;
+        }
+
+        .footer-logo {
+            max-width: 265px;
+        }
+    }
+
+    .footer-lower {
+        gap: 16px;
+        padding: 0 0;
+
+        #accordion {
+            display: flex;
+        }
+
+        #accordion input[type="radio"]:checked + .accordion-content {
+            display: block;
+            transition: all 1s;
+        }
+
+        .footer-lower-container {
+            padding: 32px 0px;
+            gap: 0px;
+            justify: space-between;
+        }
     }
 }

@@ -455,6 +455,15 @@ body {
         line-height: 30px;
         text-align: center;
     }
+
+    .features-card-body-text {
+        max-width: 336px;
+        font-size: 16px;
+        font-weight: $font-bold-2;
+        line-height: 24px;
+        text-align: center;
+        color: $font-color-2;
+    }
 }
 
 .tool-container {
@@ -501,9 +510,7 @@ body {
 .get-free-container {
     max-width: 1280px;
     margin: auto;
-    // display: flex;
     padding: 96px 0px;
-    // gap: 10px;
 }
 
 .get-free-body {
@@ -651,37 +658,92 @@ body {
 .footer-lower {
     max-width: 1280px;
     padding: 31px 32px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+    // align-items: center;
+    // display: flex;
+    // justify-content: space-between;
 
-    .footer-lower-body {
+    #accordion {
+        display: none;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    #accordion label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(212, 212, 212, 0.91);
+        padding: 20px 0;
+        width: 100%;
+        margin: 0 0;
+        font-size: 20px;
+        font-family: "Poppins";
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #accordion label span {
+        font-size: 22px;
+        transform: rotate(90deg);
+        color: rgb(151, 150, 150);
+    }
+
+    #accordion label + input[type="radio"] {
+        display: none;
+    }
+
+    .accordion-content {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        left: 55px;
+        justify-content: center;
+        text-align: start;
+        color: #475467;
+        background-color: white;
+    }
+
+    .accordion-content p {
+        font-family: "Poppins";
+        margin: 0;
+        padding: 10px 14px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .accordion-content p:hover {
+        background-color: #f0fdf9;
+        color: #107569;
+    }
+
+    .footer-lower-container {
         max-width: 1216px;
         display: flex;
         justify-content: space-between;
-
-        span {
-            font-family: "Montserrat";
-            font-size: 14px;
-            font-weight: 500;
-            gap: 0;
-            line-height: 24.5px;
-            text-align: center;
-            color: $font-color-2;
+        .footer-lower-body {
+            span {
+                font-family: "Montserrat";
+                font-size: 14px;
+                font-weight: 500;
+                gap: 0;
+                line-height: 24.5px;
+                text-align: center;
+                color: $font-color-2;
+            }
         }
-    }
 
-    .footer-lower-icons {
-        max-width: 168px;
-        display: flex;
-        gap: 8px;
-
-        .footer-icon {
-            width: 36px;
+        .footer-lower-icons {
+            max-width: 168px;
             display: flex;
-            padding: 9.86px 10px 10.14px 10px;
-            border-radius: 4px;
-            border: 1px solid $font-color-2;
+            gap: 8px;
+
+            .footer-icon {
+                width: 36px;
+                display: flex;
+                padding: 9.86px 10px 10.14px 10px;
+                border-radius: 4px;
+                border: 1px solid $font-color-2;
+            }
         }
     }
 }
