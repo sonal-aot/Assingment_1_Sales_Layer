@@ -107,7 +107,7 @@
 
         span {
             max-width: 524px;
-            display: flex;
+            // display: flex;
             gap: 0px;
             text-align: center;
         }
@@ -284,7 +284,7 @@
                     width: 680px;
                     padding-bottom: 20px;
                     border-bottom: 0.5px solid $font-color-3; // Replace with actual color
-                    font-size: 16px;
+                    font-size: $size-16;
                     font-weight: $font-bold-2; // Replace with actual font weight
                     line-height: 24px;
                     text-align: left;
@@ -299,6 +299,7 @@
                 .footer-content-list {
                     display: none;
                     flex-direction: column;
+                    max-width: -webkit-fill-available;
                     list-style: none;
                     margin: 0;
                     padding: 0;
@@ -318,7 +319,6 @@
                 .accordion-btn:checked ~ .footer-content-list {
                     display: flex;
                     padding-bottom: 20px;
-                    max-width: -webkit-fill-available;
                     border-bottom: 1px solid $font-color-3;
                 }
 

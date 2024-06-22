@@ -53,7 +53,7 @@ body {
     span {
         color: $font-color-1;
         padding: 1px 0;
-        font-size: 20px;
+        font-size: $size-20;
         font-weight: $font-bold-1;
         line-height: 30px;
         text-align: left;
@@ -67,7 +67,7 @@ body {
     gap: 32px;
 
     span {
-        font-size: 16px;
+        font-size: $size-16;
         font-weight: $font-bold-1;
         line-height: 24px;
         text-align: left;
@@ -86,7 +86,7 @@ body {
     .log-in-btn {
         color: $font-color-2;
         font-family: $font-family;
-        font-size: 16px;
+        font-size: $size-16;
         border: none;
         background-color: $white;
         font-weight: $font-bold-1;
@@ -103,7 +103,7 @@ body {
         padding: 8px 14px;
         border-radius: 8px;
         font-family: $font-family;
-        font-size: 14px;
+        font-size: $size-14;
         font-weight: $font-bold-1;
         line-height: 20px;
         text-align: left;
@@ -143,7 +143,7 @@ body {
         background-color: $white;
 
         .list {
-            font-size: 16px;
+            font-size: $size-16;
             font-weight: $font-bold-1;
             line-height: 24px;
             text-align: left;
@@ -151,7 +151,7 @@ body {
             padding: 6px 32px 6px 42px;
         }
 
-        .list:hover {
+        .list:active {
             background-color: #f0fdf9;
             color: #107569;
         }
@@ -182,7 +182,7 @@ body {
     gap: 24px;
 
     span {
-        font-size: 60px;
+        font-size: $size-60;
         font-weight: $font-bold-1;
         line-height: 72px;
         text-align: left;
@@ -193,7 +193,7 @@ body {
     }
 
     p {
-        font-size: 20px;
+        font-size: $size-20;
         font-weight: $font-bold-2;
         line-height: 30px;
         text-align: left;
@@ -210,7 +210,7 @@ body {
     border-radius: 8px;
     background-color: $primary-color;
     color: $white;
-    font-size: 18px;
+    font-size: $size-18;
     font-weight: $font-bold-1;
     line-height: 28px;
     text-align: left;
@@ -247,7 +247,7 @@ body {
     align-items: center;
 
     span {
-        font-size: 20px;
+        font-size: $size-20;
         font-weight: $font-bold-2;
         line-height: 30px;
         text-align: left;
@@ -263,7 +263,7 @@ body {
     justify-content: center;
 
     .about-head-1 {
-        font-size: 16px;
+        font-size: $size-16;
         font-weight: $font-bold-1;
         line-height: 24px;
         text-align: left;
@@ -271,7 +271,7 @@ body {
     }
 
     .about-head-2 {
-        font-size: 36px;
+        font-size: $size-36;
         font-weight: $font-bold-1;
         line-height: 44px;
         text-align: left;
@@ -332,7 +332,7 @@ body {
         gap: 8px;
 
         span {
-            font-size: 20px;
+            font-size: $size-20;
             max-width: 100%;
             font-weight: $font-bold-1;
             line-height: 30px;
@@ -341,7 +341,7 @@ body {
         }
 
         p {
-            font-size: 16px;
+            font-size: $size-16;
             max-width: 100%;
             font-weight: $font-bold-2;
             line-height: 24px;
@@ -385,7 +385,7 @@ body {
 
         .features-head-1 {
             max-width: 72px;
-            font-size: 16px;
+            font-size: $size-16;
             font-weight: $font-bold-1;
             line-height: 24px;
             text-align: left;
@@ -394,7 +394,7 @@ body {
 
         .features-head-2 {
             max-width: 986px;
-            font-size: 36px;
+            font-size: $size-36;
             font-weight: $font-bold-1;
             line-height: 44px;
             text-align: left;
@@ -404,7 +404,7 @@ body {
 
     .features-head-3 {
         max-width: 797px;
-        font-size: 20px;
+        font-size: $size-20;
         font-weight: $font-bold-2;
         line-height: 30px;
         text-align: left;
@@ -449,7 +449,7 @@ body {
     gap: 8px;
 
     .features-card-body-head {
-        font-size: 20px;
+        font-size: $size-20;
         white-space: nowrap;
         font-weight: $font-bold-1;
         line-height: 30px;
@@ -458,7 +458,7 @@ body {
 
     .features-card-body-text {
         max-width: 336px;
-        font-size: 16px;
+        font-size: $size-16;
         font-weight: $font-bold-2;
         line-height: 24px;
         text-align: center;
@@ -482,7 +482,7 @@ body {
         gap: 24px;
 
         .tool-body-head {
-            font-size: 36px;
+            font-size: $size-36;
             font-weight: $font-bold-1;
             line-height: 44px;
             text-align: left;
@@ -490,7 +490,7 @@ body {
         }
 
         .tool-body-text {
-            font-size: 20px;
+            font-size: $size-20;
             font-weight: $font-bold-2;
             line-height: 30px;
             text-align: left;
@@ -537,7 +537,7 @@ body {
         gap: 20px;
 
         .get-free-head-1 {
-            font-size: 36px;
+            font-size: $size-36;
             font-weight: $font-bold-1;
             line-height: 44px;
             text-align: center;
@@ -545,7 +545,7 @@ body {
         }
 
         .get-free-head-2 {
-            font-size: 20px;
+            font-size: $size-20;
             font-weight: $font-bold-2;
             line-height: 30px;
             text-align: center;
@@ -555,7 +555,7 @@ body {
 
     button {
         font-family: $font-family;
-        font-size: 18px;
+        font-size: $size-18;
         font-weight: $font-bold-1;
         line-height: 28px;
         text-align: left;
@@ -608,7 +608,7 @@ body {
         span {
             max-width: 207px;
             white-space: nowrap;
-            font-size: 36px;
+            font-size: $size-36;
             font-weight: $font-bold-1;
             line-height: 44px;
             text-align: left;
@@ -630,13 +630,13 @@ body {
         }
 
         .footer-content-head {
-            font-size: 14px;
+            font-size: $size-14;
             font-weight: $font-bold-2;
             line-height: 20px;
             text-align: left;
             color: $font-color-2;
 
-            img{
+            img {
                 display: none;
             }
         }
@@ -656,7 +656,7 @@ body {
             gap: 16px;
 
             li {
-                font-size: 16px;
+                font-size: $size-16;
                 font-weight: $font-bold-1;
                 line-height: 24px;
                 text-align: left;
@@ -680,7 +680,7 @@ body {
         .footer-lower-body {
             span {
                 font-family: "Montserrat";
-                font-size: 14px;
+                font-size: $size-14;
                 font-weight: 500;
                 gap: 0;
                 line-height: 24.5px;

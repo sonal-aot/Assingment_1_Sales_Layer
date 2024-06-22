@@ -1,0 +1,223 @@
+@media only screen and (max-width: 431px) {
+  .nav-bar-container {
+    justify-content: space-between;
+  }
+  .nav-bar-container .nav-bar {
+    margin: 0;
+  }
+  .body-container {
+    width: 375px;
+    padding: 64px 16px;
+  }
+  .body-img {
+    width: 343px;
+  }
+  .body-content {
+    width: 343px;
+    gap: 16px;
+  }
+  .body-content .body-content-text span {
+    font-size: 2.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 44px;
+    text-align: left;
+  }
+  .body-content .body-content-text img {
+    width: 343px;
+  }
+  .body-content .body-content-text p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  .body-btn {
+    width: 343px;
+    padding: 12px 20px 12px 20px;
+    gap: 8px;
+    border-radius: 8px;
+  }
+  .about-container {
+    width: 375px;
+    padding: 64px 16px;
+    gap: 48px;
+  }
+  .about-container-head {
+    width: 343px;
+    gap: 16px;
+  }
+  .about-container-head span {
+    width: 343px;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: center;
+  }
+  .about-container-head-top {
+    width: 139px;
+    gap: 12px;
+  }
+  .about-container-head-top .about-head-1 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+  }
+  .about-container-head-top .about-head-2 {
+    width: 139px;
+    font-size: 1.875rem;
+    line-height: 38px;
+    text-align: center;
+  }
+  .about-body {
+    width: 343px;
+    gap: 48px;
+  }
+  .about-body-img {
+    width: 343px;
+  }
+  .about-card-section {
+    width: 343px;
+  }
+  .about-card-part {
+    width: 343px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .about-card-body-text {
+    width: 343px;
+  }
+  .about-card-body-text span {
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: left;
+  }
+  .features-container {
+    display: inline-flex;
+  }
+  .features-body {
+    width: 375px;
+    padding: 64px 16px;
+    gap: 64px;
+  }
+  .features-head {
+    width: 343px;
+    gap: 16px;
+  }
+  .features-head .features-head-top {
+    width: 343px;
+    gap: 12px;
+  }
+  .features-head .features-head-top .features-head-2 {
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .features-head .features-head-3 {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+  .features-card-section {
+    grid-template-columns: 1fr;
+  }
+  .features-card {
+    width: 343px;
+  }
+  .features-card-body {
+    width: 295px;
+  }
+  .features-card-body .features-card-body-head {
+    font-size: 1.125rem;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  .features-card-body .features-card-body-text {
+    width: 295px;
+    gap: 0px;
+  }
+  .tool-container {
+    width: 375px;
+    padding: 64px 16px;
+  }
+  .tool-container .tool-body {
+    width: 343px;
+    gap: 48px;
+  }
+  .tool-container .tool-body .tool-body-head {
+    width: 343px;
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .tool-container .tool-body .tool-body-text {
+    width: 343px;
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: left;
+  }
+  .tool-container .tool-img {
+    width: 343px;
+  }
+  .get-free-container {
+    padding: 32px 16px;
+    max-width: 480px;
+    width: 100%;
+  }
+  .get-free-body {
+    gap: 64px;
+  }
+  .get-free-body-text {
+    width: 279px;
+    gap: 32px;
+  }
+  .get-free-body-text .get-free-head-1 {
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .get-free-body-text .get-free-head-2 {
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: center;
+  }
+  .get-free-body-text button {
+    max-width: 279px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .footer-container {
+    width: 375px;
+    padding: 48px 16px 0px 16px;
+    gap: 48px;
+  }
+  .footer-logo {
+    width: 214px;
+    gap: 10px;
+  }
+  .footer-logo img {
+    width: 42px;
+  }
+  .footer-logo span {
+    font-size: 1.875rem;
+  }
+  .footer-upper {
+    width: 343px;
+  }
+  .footer-upper .footer-body {
+    width: 343px;
+  }
+  .footer-upper .footer-body .footer-body-content {
+    width: 343px;
+  }
+  .footer-upper .footer-body .footer-body-content .footer-content-head {
+    width: 343px;
+  }
+  .footer-lower {
+    width: 343px;
+  }
+  .footer-lower .footer-lower-container {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=mobile-responsive.css.map */

@@ -86,7 +86,6 @@
   }
   .about-container-head span {
     max-width: 524px;
-    display: flex;
     gap: 0px;
     text-align: center;
   }
@@ -227,7 +226,7 @@
     width: 680px;
     padding-bottom: 20px;
     border-bottom: 0.5px solid #d0d5dd;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -240,6 +239,7 @@
   .footer-upper .footer-body .footer-body-content .footer-content-list {
     display: none;
     flex-direction: column;
+    max-width: -webkit-fill-available;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -256,7 +256,6 @@
   .footer-upper .footer-body .footer-body-content .accordion-btn:checked ~ .footer-content-list {
     display: flex;
     padding-bottom: 20px;
-    max-width: -webkit-fill-available;
     border-bottom: 1px solid #d0d5dd;
   }
   .footer-upper .footer-body .footer-body-content .accordion-btn:checked ~ .footer-content-head {
