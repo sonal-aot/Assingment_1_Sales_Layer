@@ -95,10 +95,14 @@
   }
   .features-container {
     display: inline-flex;
+    width: 100%;
+    padding: 64px 16px;
+    margin: auto;
   }
   .features-body {
     width: 375px;
     padding: 64px 16px;
+    margin: auto;
     gap: 64px;
   }
   .features-head {
@@ -120,16 +124,13 @@
   .features-card-section {
     grid-template-columns: 1fr;
   }
-  .features-card {
-    width: 343px;
-  }
   .features-card-body {
     width: 295px;
   }
   .features-card-body .features-card-body-head {
     font-size: 1.125rem;
     line-height: 28px;
-    white-space: nowrap;
+    white-space: wrap;
   }
   .features-card-body .features-card-body-text {
     width: 295px;
